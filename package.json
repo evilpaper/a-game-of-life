@@ -1,11 +1,12 @@
 {
   "name": "a-game-of-life",
   "version": "1.0.0",
-  "description": "",
+  "description": "A basic Game of Life implementation in TypeScript.",
   "main": "index.js",
   "scripts": {
-    "start:dev": "npx nodemon",
-    "test": "jest"
+    "test": "jest",
+    "dev": "tsc --watch",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +16,6 @@
     "@types/jest": "^29.5.12",
     "@types/node": "^20.11.25",
     "jest": "^29.7.0",
-    "nodemon": "^3.1.0",
     "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.2"
