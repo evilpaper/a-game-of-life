@@ -1,5 +1,5 @@
-import { Board } from "./game-of-life";
-import { Cell } from "./game-of-life";
+import { Board } from "../src/board";
+import { Cell } from "../src/cell";
 import { it } from "@jest/globals";
 
 /**
